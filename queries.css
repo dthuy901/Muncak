@@ -253,7 +253,7 @@
     .btn,
     #details a{
         width: 120px;
-        /* line-height: 50px; */
+        line-height: 50px;
         padding: 0 10px;
         text-align: center;
         display: block;
