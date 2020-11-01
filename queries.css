@@ -1,0 +1,351 @@
+/**
+ *
+ * RESPONSIVE SCREEN:
+ *  1. @media screen and (max-width: 1405px)
+ *  2. @media screen and (max-width: 1571px)
+ *  3. @media screen and (max-width: 1228px)
+ *  4. @media screen and (max-width: 1190px)
+ *  5. @media screen and (max-width: 1000px)
+ *  6. @media screen and (max-width: 976px)
+ *  7. @media screen and (max-width: 922px)
+ *  8. @media screen and (max-width: 779px)
+ *  9. @media screen and (max-width: 676px)
+ *  10. @media screen and (max-width: 603px)
+ *  11. @media screen and (max-width: 475px)
+ *
+**/
+ 
+@media screen and (max-width: 1405px){
+    .wrap-outer,
+    .wrap-inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
+@media screen and (max-width: 1571px){
+    .wrap-form-footer > div.wrap-outer::after{
+        display: none;
+        visibility: hidden;
+    }
+   
+}
+@media screen and (max-width: 1228px){
+    #about > div > div > div:last-child::after {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 1190px){
+    header{
+        padding-top: 20px;
+    }
+    header .wrap-inner h1 {
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+    header .wrap-inner h2 {
+        margin-bottom: 55px;
+    }
+    header .btn {
+        margin-bottom: 164px;
+    }
+}
+@media screen and (max-width: 1000px){
+    header {
+        background: url(img/home/bubble-right.png) no-repeat top right;
+        background-size: 70%;
+       
+    }
+    header .btn {
+        margin-bottom: 45px;
+    }
+    .btn {
+        height: auto;
+        /* line-height: 60px; */
+        padding: 0 44px;
+    }
+}
+@media screen and (max-width: 976px){
+    #hiking,
+    #about,
+    .wrap-form-footer,
+    .wrap-form-footer > div.wrap-outer,
+    footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #success{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    #hiking h2,
+    #about h2 {
+        margin-bottom: 30px;
+    }
+    /* header */
+    header {
+        padding-bottom: 40px;
+    }
+    header .wrap-inner h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    header .wrap-inner h2 {
+        margin-bottom: 30px;
+    }
+    /* hiking */
+    
+    #details {
+        position: static;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #details > div {
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    #details > div:nth-child(2){
+        flex-direction: row-reverse;
+    }
+    #details > div > div {
+        width: calc(100% - 160px);
+    }
+    #details a {
+        position: static;
+    }
+    #details > div > img {
+        width: 125px;
+        object-fit: contain;
+        margin: auto 0;
+    }
+    #about > div > div > div {
+        width: calc((100% - 30px) / 3);
+    }
+    #details a {
+        display: block;
+        margin: 30px auto;
+        max-width: 206px;
+    }
+    /* form */
+    .wrap-form-footer > div.wrap-outer > p {
+        margin: 0 auto 30px;
+    }
+    .wrap-form-footer form button {
+        margin-top: 30px;
+    }
+    /* footer */
+    footer > ul {
+        margin-top: 30px;
+    }
+   
+    
+}
+@media screen and (max-width: 922px){
+    #success > div p:not(:nth-child(3)) span::before{
+        display: block;
+        content: ' ';
+        height: 23px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 779px){
+    html{
+        font-size: 50%;
+    }
+    #hiking h2,
+    #success h2,
+    #about h2{
+        margin-bottom: 20px;
+        /* line-height: 35px; */
+    }
+    #hiking,
+    #about,
+    .wrap-form-footer > div.wrap-outer,
+    footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #success{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .wrap-form-footer{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    /*header */
+    header {
+        background: none;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    header h1{
+        text-align: center;
+    }
+    #top {
+        display: block;
+        background: linear-gradient(60deg, #8d9add, #6697d6);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #top nav ul {
+        justify-content: space-around;
+    }
+    header .wrap-inner h1 {
+        
+        max-width: 100%;
+    }
+    header .wrap-inner h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    header .wrap-inner h2 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    header .btn {
+        margin-bottom: 0px;
+    }
+    /* hiking */
+    .btn,
+    #details a{
+        width: 163px;
+        /* line-height: 50px; */
+        padding: 0 10px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }  
+    #details > div > div {
+        padding: 20px;
+    }
+    #details > div h3 {
+        margin-bottom: 10px;
+    }
+    #hiking {
+        background: url(img/hiking/bg-left.png) no-repeat left 400px;
+        background-size: 69%;
+    }
+    /* form, footer */
+    .wrap-form-footer form {
+        max-width: 80%;
+        padding: 0 30px;
+    }
+    .wrap-form-footer > div.wrap-outer > p {
+        /* line-height: 35px; */
+        margin-bottom: 20px;
+    }
+    .wrap-form-footer form input {
+        height: 40px;
+        /* line-height: 40px; */
+        margin-bottom: 15px;
+    }
+    .wrap-form-footer form button {
+        height: auto;
+        width: 163px;
+        /* line-height: 50px; */
+        padding: 0 10px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    footer > ul {
+        margin-top: 20px;
+    }
+    
+
+}
+@media screen and (max-width: 676px){
+    html{
+        font-size: 37.5%;
+    }
+    /* hiking */
+    #success > div p:not(:nth-child(3)) span::before{
+        display: none;
+    }
+    #success > div {
+        display: block;
+    }
+    #success > div > p {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #success > div > p span {
+        display: initial;
+    }
+    #success > div > p span {
+        font-size: 2.5rem;
+    }
+    /* about */
+    #about > div > div {
+        display: block;
+    }
+    #about > div > div > div {
+        width: 85%;
+        margin: 20px auto;
+    }
+   
+    /* form, footer */
+    .wrap-form-footer form {
+        max-width: 100%;
+    }
+    #links > div{
+        width: 30%;
+        margin-bottom: 40px;
+    }
+    #links::after{
+        content: ' ';
+        display: block;
+        width: 30%;
+    }
+    #links > div > h4 {
+        margin-bottom: 20px;
+    }
+    footer > ul {
+        justify-content: center;
+    }
+   
+}
+@media screen and (max-width: 603px){
+    /* footer */
+    #links > div {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 475px){
+    
+    #about > div > div > div > div {
+        padding: 19px 15px 0;
+    }
+    /* hiking */
+    #details > div > img {
+        width: 50px;
+    }
+    #details > div > div {
+        width: calc(100% - 60px);
+    }
+    #about > div > div > div {
+        width: 95%;
+    }
+    /* form, footer */
+    .wrap-form-footer form {  
+        padding: 0;
+    }
+    .wrap-form-footer {
+        background-size: cover;
+        height: auto;
+        
+    }
+    #links > div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #links > div > h4 {
+        margin-bottom: 0px;
+    }
+    
+}
