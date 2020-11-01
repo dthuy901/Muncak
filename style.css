@@ -60,7 +60,7 @@ a{
 header{
     background-color: #fff;
     background: url(img/home/buble-left.png) no-repeat left bottom, url(img/home/bubble-right.png) no-repeat top right;
-    background-size: 9%, 57%;
+    background-size: 100px, 1000px;
     padding-top: 85px;
     padding-bottom: 79px;
 }
@@ -75,7 +75,7 @@ header{
 }
 #top nav ul li a{
     display: inline-block;
-    height: 36px;
+    height: 3.6rem;
     line-height: 3.6rem;
     padding: 0 36px;
     color: #fff;
@@ -116,7 +116,7 @@ header .btn{
 #hiking{
     padding-top: 79px;
     background: url(img/hiking/bg-left.png) no-repeat left 400px, url(img/hiking/half-circle-right.png) no-repeat right 384px, url(img/hiking/right-bg.png) no-repeat right 875px;
-    background-size: 69%, 61px, 13%;
+    background-size: 1300px, 61px, 250px;
 }
 #hiking h2{
     max-width: 700px;
@@ -321,7 +321,7 @@ header .btn{
     background-color: #00aeff;
     height: 80px;
     border-radius: 40px;
-    line-height: 8rem;
+    line-height: 6rem;
     color: #fff;
     font-size: 2rem;
     text-align: center;

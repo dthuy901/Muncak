@@ -1,6 +1,7 @@
 /**
  *
  * RESPONSIVE SCREEN:
+ *  0. @media screen and (max-width: 2560px)
  *  1. @media screen and (max-width: 1405px)
  *  2. @media screen and (max-width: 1571px)
  *  3. @media screen and (max-width: 1228px)
@@ -14,12 +15,50 @@
  *  11. @media screen and (max-width: 475px)
  *
 **/
- 
+@media screen and (max-width: 5000px){
+    #top nav ul li a {
+        color: #000;
+    }
+    #top nav ul li a.highlight {
+        border: 1px solid #000;
+    }
+    /* footer */
+    .wrap-form-footer {
+        padding-top: 0px;
+        background: url(img/footer.png) no-repeat center bottom;
+        background-size: 5000px;
+    }
+    .wrap-form-footer > div.wrap-outer::after {
+        top: 571px;
+    }
+}
+@media screen and (max-width: 2248px){
+    #top nav ul li a {
+        color: #fff;
+    }
+    #top nav ul li a.highlight {
+        border: none;
+    }
+    /* footer */
+    .wrap-form-footer{
+        padding-top: 78px;
+        background: url(img/footer.png) no-repeat center bottom;
+    }
+    .wrap-form-footer > div.wrap-outer::after {
+        top: 340px;
+    }
+}
 @media screen and (max-width: 1405px){
     .wrap-outer,
     .wrap-inner{
         padding-left: 15px;
         padding-right: 15px;
+    }
+    header{
+        background-size: 9%, 57%;
+    }
+    #hiking{
+        background-size: 69%, 61px, 13%;
     }
     
 }
@@ -188,7 +227,7 @@
     }
     #top {
         display: block;
-        background: linear-gradient(60deg, #8d9add, #6697d6);
+        background: linear-gradient(60deg, #b4b9ce, #6697d6);
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -213,7 +252,7 @@
     /* hiking */
     .btn,
     #details a{
-        width: 163px;
+        width: 120px;
         /* line-height: 50px; */
         padding: 0 10px;
         text-align: center;
@@ -246,7 +285,7 @@
     }
     .wrap-form-footer form button {
         height: auto;
-        width: 163px;
+        width: 120px;
         /* line-height: 50px; */
         padding: 0 10px;
         text-align: center;
@@ -308,6 +347,10 @@
     footer > ul {
         justify-content: center;
     }
+    footer > ul > li > a {
+        width: 40px;
+        height: 40px;
+    }
    
 }
 @media screen and (max-width: 603px){
@@ -344,8 +387,16 @@
         width: 100%;
         margin-bottom: 10px;
     }
+    #links::after {
+        display: none;
+        visibility: hidden;
+    }
     #links > div > h4 {
         margin-bottom: 0px;
+    }
+    footer > ul > li > a {
+        width: 35px;
+        height: 35px;
     }
     
 }
