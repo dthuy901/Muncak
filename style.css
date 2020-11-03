@@ -116,7 +116,7 @@ header .btn{
 #hiking{
     padding-top: 79px;
     background: url(img/hiking/bg-left.png) no-repeat left 400px, url(img/hiking/half-circle-right.png) no-repeat right 384px, url(img/hiking/right-bg.png) no-repeat right 875px;
-    background-size: 1300px, 61px, 250px;
+    background-size: 1265px, 61px, 250px;
 }
 #hiking h2{
     max-width: 700px;
